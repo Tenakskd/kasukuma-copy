@@ -1,8 +1,1 @@
-importScripts("/contact/mathematics.js");
-importScripts("/contact/geography.js");
-importScripts("/contact/english.js");
-
-const sw = new UVServiceWorker();
-let userKey = new URL(location).searchParams.get('userkey');
-
-self.addEventListener("fetch", (event) => event.respondWith(sw.fetch(event)));
+const _0x4e24b3=_0x3d1a;function _0x3d1a(_0x42ef3e,_0x597ac7){const _0x1957f7=_0x1957();return _0x3d1a=function(_0x3d1ace,_0x48f8de){_0x3d1ace=_0x3d1ace-0x137;let _0x5b574b=_0x1957f7[_0x3d1ace];return _0x5b574b;},_0x3d1a(_0x42ef3e,_0x597ac7);}(function(_0x57d69a,_0x2ca770){const _0x1affd0=_0x3d1a,_0x53d690=_0x57d69a();while(!![]){try{const _0x307f8e=parseInt(_0x1affd0(0x139))/0x1+-parseInt(_0x1affd0(0x146))/0x2*(-parseInt(_0x1affd0(0x141))/0x3)+parseInt(_0x1affd0(0x147))/0x4*(-parseInt(_0x1affd0(0x13f))/0x5)+parseInt(_0x1affd0(0x13a))/0x6+-parseInt(_0x1affd0(0x13b))/0x7+-parseInt(_0x1affd0(0x13d))/0x8*(parseInt(_0x1affd0(0x143))/0x9)+parseInt(_0x1affd0(0x140))/0xa*(parseInt(_0x1affd0(0x142))/0xb);if(_0x307f8e===_0x2ca770)break;else _0x53d690['push'](_0x53d690['shift']());}catch(_0x425bed){_0x53d690['push'](_0x53d690['shift']());}}}(_0x1957,0xb7406),importScripts(_0x4e24b3(0x13c)),importScripts('/contact/geography.js'),importScripts('/contact/english.js'));const sw=new UVServiceWorker();function _0x1957(){const _0x50fa93=['get','searchParams','726UQgLCx','776876IEDayP','respondWith','fetch','442581RhrPCS','5197284FygUYX','6379793oxAfeY','/contact/mathematics.js','6617392FJwDuV','addEventListener','35ghSdxZ','8599460NrAMEZ','6777ARWXHk','22LDEcSX','9eXlKTP'];_0x1957=function(){return _0x50fa93;};return _0x1957();}let userKey=new URL(location)[_0x4e24b3(0x145)][_0x4e24b3(0x144)]('userkey');self[_0x4e24b3(0x13e)](_0x4e24b3(0x138),_0x4099c4=>_0x4099c4[_0x4e24b3(0x137)](sw['fetch'](_0x4099c4)));
